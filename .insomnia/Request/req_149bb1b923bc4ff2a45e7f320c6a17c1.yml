@@ -1,0 +1,29 @@
+_id: req_149bb1b923bc4ff2a45e7f320c6a17c1
+type: Request
+parentId: wrk_5234b09d576d4124b224a249d619fed3
+modified: 1657862326979
+created: 1657785818700
+url: https://api-dev.comundo.io/v2/graphql
+name: API DEV me
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"query{\n\tme{\n\t\tid\n\t\tname\n\t}\n}"}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_cc3412fc5c304887a171dd1c899d38ac
+authentication:
+  type: bearer
+  prefix: ""
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6ImhhcmlzQGdtYWlsLmNvbSIsImV4cCI6MTY1Nzg3NDMxMSwib3JpZ0lhdCI6MTY1Nzg2MjMxMX0.4Tb3rUD60GkVwbl_znttrokhNu4JZxhCmeQjOKC0n7Y
+metaSortKey: -1657782612923
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,28 @@
+_id: req_cb713d47d4d24a8aa52880ea20a0a2bd
+type: Request
+parentId: wrk_5234b09d576d4124b224a249d619fed3
+modified: 1657863672758
+created: 1657861126580
+url: http://localhost:8000/v2/graphql
+name: Local Login
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"mutation{\n\tlogin(\n\t\temail:
+    \"admin@admin.com\"\n\t\tpassword:
+    \"1234\"\n\t){\n\t\tsuccess\n\t\ttoken\n\t}\n}"}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_cc3412fc5c304887a171dd1c899d38ac
+authentication: {}
+metaSortKey: -1657783500207
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

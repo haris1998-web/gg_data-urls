@@ -1,0 +1,29 @@
+_id: req_9214d093f73340d79040cd05f935cb34
+type: Request
+parentId: wrk_5234b09d576d4124b224a249d619fed3
+modified: 1657862750502
+created: 1657862276257
+url: http://localhost:8000/v2/graphql
+name: Local me
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"query{\n\tme{\n\t\tid\n\t\tname\n\t\temail\n\t}\n}"}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_cc3412fc5c304887a171dd1c899d38ac
+authentication:
+  type: bearer
+  prefix: ""
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6InFhZGVlckBuYWpvb21pLmNvbSIsImV4cCI6MTY1Nzg3NDc0MCwib3JpZ0lhdCI6MTY1Nzg2Mjc0MH0.Ih56PvN5_7K-oG7ZwxKWwbaq9DNIdTMdAilVb-rjghs
+metaSortKey: -1657781725639
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

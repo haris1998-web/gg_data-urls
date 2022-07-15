@@ -1,0 +1,29 @@
+_id: req_0bf7c448db914f2791b13ecefa0d10f7
+type: Request
+parentId: wrk_5234b09d576d4124b224a249d619fed3
+modified: 1657876312792
+created: 1657859734934
+url: http://localhost:8000/v2/graphql
+name: Login As Local
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"mutation{\n\tloginAs(email:
+    \"qadeer@najoomi.com\"){\n\t\tsuccess\n\t\temail\n\t\ttoken\n\t\trefreshToken\n\t}\n}"}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_3729a044bf1048b88b4cf3e0430c0261
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsImV4cCI6MTY1Nzg3Mzg2OSwib3JpZ0lhdCI6MTY1Nzg2MTg2OX0.B4zYSSnmjShq70AHTSucuU9p0zDpXsYtuzNYe1jNaV4
+metaSortKey: -1657859734934
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

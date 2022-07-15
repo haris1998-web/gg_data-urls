@@ -1,0 +1,42 @@
+_id: req_6dcb041dac6c4e61aa0b5405374fac88
+type: Request
+parentId: wrk_5234b09d576d4124b224a249d619fed3
+modified: 1657885807368
+created: 1657884693902
+url: http://localhost:8000/v2/graphql
+name: MetersData Electricity Resolution m
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"query{\n  metersData(\n    meterType:\"electricity\"\n    meteringPointId:
+    \"all\"\n    address:\"Rørthvej 34A, 8300 Odder\"\n    customer:
+    16\n    fromDate: \"2019-01-01T00:00:00\"\n    toDate:
+    \"2020-01-01T00:00:00\"\n    resolution:
+    \"m\"\n  ){\n    Id\n    address\n    meteringPointId\n    ident\n    customer\n    typeOfMP\n    data
+    {\n      co2\n      co2PerM2\n      price\n      q\n      ts\n      v\n      vPerM2\n    }\n  }\n}\n"}'
+parameters:
+  - id: pair_1974cdc68cca42ac9ff5e89b14222acd
+    name: ""
+    value: ""
+    description: ""
+headers:
+  - id: pair_0aae11bf5f88494e95afdb8ddde6b5c6
+    name: ""
+    value: ""
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_84ce2d56799141bd8597eb71cefb819a
+authentication:
+  type: bearer
+  prefix: Bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsImV4cCI6MTY1Nzc5Mzg3MCwib3JpZ0lhdCI6MTY1Nzc4MTg3MH0.hGPbglVOOCvoW-tI4Sa_1nRzQKyQjBOZ1l1l1oz1sPM
+metaSortKey: -1657780838236.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,28 @@
+_id: req_ca31ea58f2c94e0da49462f45abf8545
+type: Request
+parentId: wrk_5234b09d576d4124b224a249d619fed3
+modified: 1657861866986
+created: 1657784387491
+url: https://api-dev.comundo.io/v2/graphql
+name: API DEV Login
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"mutation{\n\tlogin(\n\t\temail:
+    \"admin@admin.com\"\n\t\tpassword:
+    \"1234\"\n\t){\n\t\tsuccess\n\t\terrors\n\t\ttoken\n\t}\n}"}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_cc3412fc5c304887a171dd1c899d38ac
+authentication: {}
+metaSortKey: -1657784387491
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
